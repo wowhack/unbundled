@@ -1,81 +1,146 @@
 <!doctype html>
-<html>
+<html class="" lang="">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Unbundled by wowhack</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- SEO -->
+    <title>The Spotify player Unbundled</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="stylesheets/main.min.css" type="text/css" charset="utf-8">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Unbundled</h1>
-            <p> Project information  <br> <em>+ Photo on our team "Hacktiebolaget"</em> </p>
-        <!-- <p>ok last try for unbundled....</p> -->
-
-        <p class="view"><a href="https://github.com/wowhack/unbundled">View the Project on GitHub <small>wowhack/unbundled</small></a></p>
-
-
-   <!--    <ul>
-          <li><a href="https://github.com/wowhack/unbundled/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/wowhack/unbundled/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/wowhack/unbundled">View On <strong>GitHub</strong></a></li>
-        </ul> -->
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p> Text 1 </p>          
-<!--
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p> 
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>-->
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p> Text 2 </p>
-<!--
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>-->
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-          
-<p> Text 3</p>
-<!--If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.-->
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p> Text 4</p>          
-<!--
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>-->
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p> Text 5</p>
-<!--
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>-->
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/wowhack">wowhack</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    <div class="header header--fullscreen grid grid--full" data-top-bottom="background-image: linear-gradient(rgb(16,17,20) 0%, rgb(72,104,0) 100%);" data-bottom="background-image: linear-gradient(rgb(16,17,20) 0%, rgb(0,0,0) 100%);">
+      <div class="header__text grid__item palm-one-whole lap-and-up-one-half text--center">
+        <h1 class="header__text--head text--center caps">Unbundled</h1>
+        <h3 class="header__text--subhead text--center push--bottom">A minimalistic Spotify-client</h3>
+        <a data-scrollto="#process" href="#process" class="btn btn--beta btn--soft scrolllink push--top">Our design process <i class="fa fa-chevron-down"></i></a>
+      </div><!--
+   --><div class="grid__item lap-and-up-one-half palm-one-whole text--center">
+        <div class="header__iphone" style="background-image:url(images/iPhone_5s_Vert_Slvr.png);">
+          <video controls><!-- autoplay -->
+            <source src="videos/unbundled.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+
+    <div id="process" class="process grid grid--full" data-top-bottom="background-image: linear-gradient(rgb(0,0,0) 0%, rgb(16,17,20) 100%);" data-bottom="background-image: linear-gradient(rgb(16,17,20) 0%, rgb(0,0,0) 100%);">
+      <div class="process__text grid__item one-whole">
+        <h1>Our design process</h1>
+        <p>
+          <i>Disclamer: This project was created during Way Out West Spotify Hackaton in Göteborg, Sweden, it is not the work of Spotify.</i>
+        </p>
+        <h2>Desktop-grade mobile apps is a trap</h2>
+        <p>The Spotify-player on mobile is currently very feature rich, it includes almost all features you can find on the desktop-client. This has disadvantages when it comes to ease of use on mobile. Obviously the cellphone has a smaller screen, but more importantly it's used at a fundamentally different basis. The thinking from desktop conflicts with the experience on mobile when it comes to complexity and interactions. To put it simple: How many taps until you get there?</p>
+        <p>On mobile the most important thing is the music, so we asked ourselfs. If we could redesign the Spotify-player from the groud-up, how would it be? The answer was something minimalistic, gesture-based, bold colors, and it breaths music.</p>
+      </div><!--
+   --><div class="process__text grid__item one-whole">
+        <h2>The context of music</h2>
+        <img src="images/process_meeting.png" alt="Postits think outside the box" class="img--right img--medium" />
+        <p>As of 2014, the post-skeuomorphism design provides less to none analog associations, which inherently gives designers less control of what users feel when they use the app. We wanted to create the feeling of music within the app, bringing the music closer to the user. We asked ourselfs, how would a deaf person know the music is there and playing? What makes people get that this is a music-app? The app should simply speak to all senses. Our answer to these questions was that transitions affect music playback and BPM-aware visual feedback.</p>
+      </div><!--
+   --><div class="process__text grid__item one-whole">
+        <h2>One interaction away</h2>
+        <p class="">Our app is all about speed and ease of use. Everything within the app is just one interaction away. We think this is the most important feature of the app since it's designed to be used when on the go. For this design-practice to work there must be a center of gravity within the app. A place where you always tend to be drawn. Another aspect we considered was the flow in the app, we wanted it to feel like there is a natual flow along with the music.</p>
+
+      </div><!--
+
+   --><div class="grid__item one-whole push--top push--bottom">
+        <div class="grid">
+          <div class="grid__item palm-one-full lap-and-up-one-third">
+            <img src="images/process_paper.png" alt="iphone blueprints and prototyping frames" />
+          </div><!--
+       --><div class="grid__item palm-one-full lap-and-up-one-third">
+            <img src="images/process_prototyping.png" alt="Drawing on a paper with an iphone-frame" />
+          </div><!--
+       --><div class="grid__item palm-one-full lap-and-up-one-third">
+            <img src="images/process_frame.png" alt="Adrian inside a paper-prototyping iphone-frame" />
+          </div>
+        </div>
+      </div><!--
+
+   --><div class="process__text grid__item one-whole">
+        <h2>Testing, with paper-prototyping</h2>
+        <p>To find the right interactions and design we used paper-prototyping. The iphone-frames are cut out from plastic foam and are great when testing gestures and transitions. We made four design propositions and the result was a mix of all of them.</p>
+      </div><!--
+
+   --><div class="grid__item one-whole push--top push--bottom">
+        <div class="grid">
+          <div class="grid__item palm-one-full lap-and-up-one-half">
+            <img src="images/process_gameroom.png" alt="" />
+          </div><!--
+       --><div class="grid__item palm-one-full lap-and-up-one-half">
+            <img src="images/process_team.png" alt="" />
+          </div>
+        </div>
+      </div><!--
+
+   --><div class="process__text grid__item one-whole">
+        <h2>We had a blast!</h2>
+        <p>Thank you Spotify and Luger!</p>
+      </div><!--
+
+   -->
+    </div>
+
+    <div id="team" class="team grid grid--center">
+      <div class="grid__item one-whole text--center">
+        <h2 class="mega caps">The team</h2>
+        <h3 class="kilo"></h3>
+      </div><!--
+   --><div class="team__person grid__item portable-one-half desk-one-quarter text--center">
+        <div class="img--circle img--center">
+          <img src="images/team-betty.jpg" class="img--circle" />
+        </div>
+        <!-- /assets/img/team/team-betty.jpg -->
+        <h3 class="kilo flush--bottom">Betty</h3>
+        <p class="gamma">Makes<br /><a href="https://twitter.com/xuebetty"><i class="fa fa-twitter"></i></a></p>
+      </div><!--
+   --><div class="team__person grid__item portable-one-half desk-one-quarter text--center">
+        <div class="img--circle img--center">
+          <img src="images/team-gustav.jpg" class="img--circle" />
+        </div>
+        <h3 class="kilo flush--bottom">Gustav</h3>
+        <p class="gamma">Builds<br />
+          <a rel="nofollow" href="https://twitter.com/GustavSvalander"><i class="fa fa-twitter"></i></a>
+        </p>
+      </div><!--
+   --><div class="team__person grid__item portable-one-half desk-one-quarter text--center">
+        <div class="img--circle img--center">
+          <img src="images/team-adrian.jpg" class="img--circle" />
+        </div>
+        <h3 class="kilo flush--bottom">Adrian</h3>
+        <p class="gamma">Designs<br /><a rel="nofollow" href="https://twitter.com/adrian_ansari"><i class="fa fa-twitter"></i></a></p>
+      </div><!--
+   --><div class="team__person grid__item portable-one-half desk-one-quarter text--center">
+        <div class="img--circle img--center">
+          <img src="images/team-caroline.jpg" class="img--circle" />
+        </div>
+        <!-- /assets/img/team/team-caroline.jpg -->
+        <h3 class="kilo flush--bottom">Caroline</h3>
+        <p class="gamma">Creates
+          <br /><a rel="nofollow" href="https://twitter.com/CarolineKabat"><i class="fa fa-twitter"></i></a>
+        </p>
+      </div><!--
+   --><div class="grid__item one-whole text--center push--top">
+        <h3 class="alpha">
+          <a href="" class="link-complex"><strong class="link-complex__target">Discuss us at <i class="fa fa-hacker-news"></i></strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&shy;
+          <a href="instagram://tag?name=wowhack2014" class="link-complex"><strong class="link-complex__target">See us at <i class="fa fa-instagram"></i></strong></a>
+        </h3>
+      </div>
+    </div>
+
+    <script src="javascripts/vendor/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/vendor/skrollr-0.6.26.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/main.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-655231-11', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>

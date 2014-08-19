@@ -1,0 +1,25 @@
+.team{
+  min-height:100%;
+  padding:10% 20% 10% 20%;
+  color: #fff;
+  font-family: 'gothambook', Helvetica, Arial, sans-serif;
+  @include linear-gradient(rgb(16,17,20), rgb(0,0,0));
+  @include media-query(palm){
+    padding:5%;
+  }
+  a{
+    color: #fff;
+  }
+}
+
+.team__person{
+  div.img--circle{
+    border:3px solid #fff;
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+  }
+  .img--circle{
+    border-radius: 50%;
+  }
+}

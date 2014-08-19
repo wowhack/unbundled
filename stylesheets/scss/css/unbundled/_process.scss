@@ -1,0 +1,21 @@
+.process{
+  min-height:100%;
+  padding:10% 20% 10% 20%;
+  font-family: 'gothambook', Helvetica, Arial, sans-serif;
+  @include linear-gradient(rgb(55,156,186), rgb(117, 0, 178));
+  @include media-query(palm){
+    padding:10% 5% 5% 5%;
+  }
+
+
+
+
+}
+
+.process__header{
+  
+}
+
+.process__text{
+  color: #fff;
+}

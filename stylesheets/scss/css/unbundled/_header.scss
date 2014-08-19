@@ -1,0 +1,59 @@
+.header{
+
+}
+.header--fullscreen{
+  height:100%;
+  max-height:1080px;
+  background-color:#461e3c;
+  @include linear-gradient(#101114,#000000);
+  padding:5%;
+  @include media-query(palm){
+    padding:10% 5%;
+  }
+}
+
+
+.header__iphone{
+  position:absolute;
+  height:768px;
+  width:400px;
+  background:transparent top center no-repeat;
+  background-size:contain;
+  margin:1% auto auto 5%;
+  @include media-query(portable){
+    margin:0;
+  }
+  video{
+    position:absolute;
+    top:137px;
+    left:58px;
+    height:494px;
+    width:287px;
+  }
+
+}
+
+.header__text{
+  max-height:80%;
+  min-height:200px;
+  margin-top:15%;
+}
+
+.header__text--head{
+  font-family: 'brandonblk', Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size:5rem;
+  line-height:1;
+  @include media-query(portable){
+    font-size:4rem;
+  }
+}
+.header__text--subhead {
+  font-family: 'brandonblk', Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size:2.3rem;
+  line-height:1;
+  @include media-query(portable){
+    font-size:1.5rem;
+  }
+}

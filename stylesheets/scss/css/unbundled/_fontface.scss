@@ -1,0 +1,46 @@
+
+
+@font-face {
+    font-family: 'brandonblk';
+    src: url('../fonts/brandon_blk-webfont.eot');
+    src: url('../fonts/brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg'),
+         url('../fonts/brandon_blk-webfont.woff') format('woff'),
+         url('../fonts/brandon_blk-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon';
+    src: url('../fonts/brandon_med-webfont.eot');
+    src: url('../fonts/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon_med-webfont.svg#brandon_grotesquemedium') format('svg'),
+         url('../fonts/brandon_med-webfont.woff') format('woff'),
+         url('../fonts/brandon_med-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+ font-family: 'gothambook';
+ src: url('../fonts/gotham-book.eot');
+ src: url('../fonts/gotham-book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gotham-book.svg#gotham-medium') format('svg'),
+      url('../fonts/gotham-book.woff') format('woff'),
+      url('../fonts/gotham-book.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+  font-family: 'gothammedium';
+  src: url('../fonts/gotham_medium.eot');
+  src: url('../fonts/gotham_medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gotham_medium.svg#gothammedium') format('svg'),
+       url('../fonts/gotham_medium.woff') format('woff'),
+       url('../fonts/gotham_medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
